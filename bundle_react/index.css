@@ -1,0 +1,150 @@
+/*!*******************************************************************************!*\
+  !*** css ./node_modules/css-loader/dist/cjs.js!./src/components/startApp.css ***!
+  \*******************************************************************************/
+.font-white-xl {
+  color: blue;
+  font-size: large;
+}
+
+/*!*******************************************************************************************!*\
+  !*** css ./node_modules/css-loader/dist/cjs.js!./src/components/stateComponents/card.css ***!
+  \*******************************************************************************************/
+img{
+    max-width:120%;
+    
+}
+
+.card{
+    position: relative;
+    border: blue;
+    border-radius: 1px;
+}
+
+#Usagi1{
+    border: 2px solid pink;
+}
+
+#Usagi2{
+    border: 2px solid pink;
+}
+
+#Usagi3{
+    border: 2px solid pink;
+}
+
+#Ami1{
+    border: 2px solid skyblue;
+}
+
+#Ami2{
+    border: 2px solid skyblue;
+}
+
+#Ami3{
+    border: 2px solid skyblue;
+}
+
+#Rei1{
+    border: 2px solid #FF5E5E;
+}
+
+#Rei2{
+    border: 2px solid #FF5E5E;
+}
+
+#Rei3{
+    border: 2px solid #FF5E5E;
+}
+
+#Makoto1{
+    border: 2px solid lightgreen;
+}
+
+#Makoto2{
+    border: 2px solid lightgreen;
+}
+
+#Makoto3{
+    border: 2px solid lightgreen;
+}
+
+#Minako1{
+    border: 2px solid yellow;
+}
+
+#Minako2{
+    border: 2px solid yellow;
+}
+
+#Minako3{
+    border: 2px solid yellow;
+}
+
+.card .front{
+    transform: rotateY(90deg);
+    transition: all ease-in 0.2s;
+    position: absolute;
+}
+
+.girada .front{
+    transform: rotateY(0deg);
+    transition-delay: 0.2s;
+}
+
+.card .back{
+    transition: all ease-in 0.2s;
+    transition-delay: 0.2s;
+    border: 2px solid #112334;
+}
+
+
+
+.girada .back{
+    transform: rotateY(90deg);
+    transition-delay: 0s;
+}
+/*!**********************************************************************************************!*\
+  !*** css ./node_modules/css-loader/dist/cjs.js!./src/components/stateComponents/shuffle.css ***!
+  \**********************************************************************************************/
+.card{
+    background-color: white;
+    color: black;
+    margin: auto;
+    text-align: center;
+    margin-right: 15px;
+    margin-left: 15px;
+    margin-top: 15px;
+    margin-bottom: 15px;
+    font-family: 'Snell Roundhand', cursive;
+    font-size: 22px;
+    
+
+}
+.Ganar{
+    color: black
+}
+.boton{
+    background-color: pink;
+    position: relative;
+    width: 100px;
+    height: 50px;
+    margin: 0;
+    font-family: 'Snell Roundhand', cursive;
+    border-radius: 50%;
+    
+}
+
+.card-grid {
+    display: grid;
+    grid-template-columns:  145px 145px 145px 145px 145px 145px 145px 145px 145px 145px;
+  }
+
+
+/*!*****************************************************************!*\
+  !*** css ./node_modules/css-loader/dist/cjs.js!./src/index.css ***!
+  \*****************************************************************/
+body {
+  background-color: pink;
+  color: white;
+}
+

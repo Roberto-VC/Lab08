@@ -1,0 +1,33 @@
+.card{
+    background-color: white;
+    color: black;
+    margin: auto;
+    text-align: center;
+    margin-right: 15px;
+    margin-left: 15px;
+    margin-top: 15px;
+    margin-bottom: 15px;
+    font-family: 'Snell Roundhand', cursive;
+    font-size: 22px;
+    
+
+}
+.Ganar{
+    color: black
+}
+.boton{
+    background-color: pink;
+    position: relative;
+    width: 100px;
+    height: 50px;
+    margin: 0;
+    font-family: 'Snell Roundhand', cursive;
+    border-radius: 50%;
+    
+}
+
+.card-grid {
+    display: grid;
+    grid-template-columns:  145px 145px 145px 145px 145px 145px 145px 145px 145px 145px;
+  }
+
